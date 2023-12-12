@@ -82,8 +82,8 @@ def process_and_transpose_csv(input_csv_path, output_excel_path, observed_data):
     write_results_to_txt(d1_value, i1_value, output_txt_path)
         
 
-observed_file_path = ' '  
+observed_file_path = ''  # Replace with your actual file path
 observed_data = extract_observed_data(observed_file_path)
-input_csv_path = ' ' 
-output_excel_path = ' ' 
+input_csv_path = '' # Replace with your actual file path
+output_excel_path = '' # Replace with your actual file path
 process_and_transpose_csv(input_csv_path, output_excel_path, observed_data)
