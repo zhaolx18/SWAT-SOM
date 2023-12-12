@@ -1,0 +1,30 @@
+===PARAMETERS FILE HEADER===
+--NUMBER OF SAMPLES-- # 10
+
+--TARGET NSE-- # Instance Below this value will be erased. NSE=65535.0: Keep All, NSE = 9999.0: Erase All
+
+--BSN-- # 2
+
+--HRU LIST-- #20 30
+
+--RCH-- # 10 20  ##TODO
+
+--CALIBRATE STRUCTURE WITH ORDER-- # 1 2 3 4 5 //  6 7 8 9 10 
+
+--ACTIVE CALIBRATION ORDER-- # 1
+
+--BSN PARAMETERS-- # SMFMX|bsn|5|20|v|g
+
+--SUB PARAMETERS-- # CH_N2|rte|0|0.3|v|g
+
+--HRU PARAMETERS-- # EPCO|hru|0|1|v|g
+
+--SOIL PARAMETERS-- # Bulk Density Moist|sol|-0.6|0.6|r
+
+--SOIL CSV FILE-- # soil.csv
+
+--WARMUP MONTH-- # 60
+
+--OBSERVED FILE-- # 1|observed.txt
+
+--SIMULATION DATA TO EXTRACT WITH ID-- # 1|RCH|7

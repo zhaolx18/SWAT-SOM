@@ -1,0 +1,4 @@
+#Number of samples eg: Q=100
+##Number of parameters eg: N=25
+##Number of clusters eg: M=6
+##Rowrange eg: RowRange=A2:Y101

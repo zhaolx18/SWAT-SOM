@@ -1,0 +1,52 @@
+===PARAMETERS FILE HEADER===
+--NUMBER OF SAMPLES-- # 10
+500
+--TARGET NSE-- # Instance Below this value will be erased. NSE=65535.0: Keep All, NSE = 9999.0: Erase All
+0.8
+--BSN-- # 2
+37
+--HRU LIST-- #20 30
+4 2 2 2 2 2 2 4 2 2 2 7 4 2 2 2 1 3 4 3 1 2 2 4 1 3 4 1 4 3 3 3 2 3 3 4 3
+--RCH-- # 10 20  ##TODO
+
+--CALIBRATE STRUCTURE WITH ORDER-- # 1 2 3 4 5 //  6 7 8 9 10 
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 24 25 28 23 26 27 29 30 31 32 33 34 35 36 37
+--ACTIVE CALIBRATION ORDER-- # 1
+1
+--BSN PARAMETERS--
+SMFMX|bsn|5|20|v|g
+SMFMN|bsn|0|5|v|g
+SFTMP|bsn|-5|0|v|g
+SMTMP|bsn|0|5|v|g
+TIMP|bsn|0|1|v|g
+SNOCOVMX|bsn|0|500|v|g
+--SUB PARAMETERS--
+ALPHA_BNK|rte|0|1|v|g
+CH_K2|rte|5|130|v|g
+CH_N2|rte|0|0.3|v|g
+SNO_SUB|sub|0|150|v|g
+--HRU PARAMETERS--
+CANMX|hru|0|100|v|g
+CN2|mgt|-0.2|0.2|r|g
+ALPHA_BF|gw|0|1|v|g
+SLSUBBSN|hru|10|150|v|g
+ESCO|hru|0|1|v|g
+REVAPMN|gw|0|500|v|g
+GW_REVAP|gw|0|0.2|v|g
+RCHRG_DP|gw|0|1|v|g
+GW_DELAY|gw|30|450|v|g
+GWQMN|gw|0|5000|v|g
+SLSOIL|hru|0|150|v|g
+EPCO|hru|0|1|v|g
+--SOIL PARAMETERS--
+Bulk Density Moist|sol|-0.6|0.6|r
+Ave. AW Incl. Rock Frag|sol|-0.6|0.6|r
+Ksat. (est.)|sol|-0.6|0.6|r
+--SOIL CSV FILE--
+soil.csv
+--WARMUP MONTH-- # 60
+0
+--OBSERVED FILE-- # 1 Flow1.txt
+1|observed.txt
+--SIMULATION DATA TO EXTRACT WITH ID-- # 1 RCH 1 //RCH 30
+1|RCH|7

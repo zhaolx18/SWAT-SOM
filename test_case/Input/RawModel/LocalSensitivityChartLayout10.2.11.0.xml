@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChartXmlSerializer version="10.2.11.0">
+  <Chart PaletteName="Solstice" SeriesDataMember="SeriesTitle" RuntimeSelection="true">
+    <Diagram TypeNameSerializable="XYDiagram">
+      <AxisX VisibleInPanesSerializable="-1" MinorCount="1">
+        <WorkdaysOptions />
+        <Range SideMarginsEnabled="false">
+          <ScrollingRange SideMarginsEnabled="false" />
+        </Range>
+        <Title Text="Axis X" />
+      </AxisX>
+      <AxisY VisibleInPanesSerializable="-1">
+        <WorkdaysOptions />
+        <Range SideMarginsEnabled="true">
+          <ScrollingRange SideMarginsEnabled="false" />
+        </Range>
+        <Title Text="Axis Y" />
+      </AxisY>
+      <DefaultPane BackColor="White">
+        <Shadow Visible="true" />
+        <FillStyle FillMode="Gradient">
+          <Options TypeNameSerializable="RectangleGradientFillOptions" Color2="234, 234, 234" />
+        </FillStyle>
+      </DefaultPane>
+    </Diagram>
+    <Padding Right="45" Bottom="15" Left="45" Top="15" />
+    <XtraPaletteRepository>
+      <Item1 ScaleMode="Repeat" Name="Palette 1">
+        <Palette>
+          <Item1 Color2="39, 101, 117" Color="56, 145, 167" />
+          <Item2 Color2="184, 131, 1" Color="254, 184, 10" />
+          <Item3 Color2="136, 32, 32" Color="195, 45, 46" />
+          <Item4 Color2="92, 119, 36" Color="132, 170, 51" />
+          <Item5 Color2="105, 47, 3" Color="150, 67, 5" />
+          <Item6 Color2="50, 63, 99" Color="71, 90, 141" />
+          <Item7 Color2="Silver" Color="Silver" />
+        </Palette>
+      </Item1>
+    </XtraPaletteRepository>
+    <OptionsPrint SizeMode="Stretch" />
+    <SeriesSerializable>
+      <Item1 LegendText="Obs" Name="Obs" ValueDataMembersSerializable="Value" ArgumentDataMember="Argument" ArgumentScaleType="Numerical">
+        <Label LineVisible="true" TextOrientation="Horizontal" Visible="false" TypeNameSerializable="PointSeriesLabel" />
+        <View TypeNameSerializable="LineSeriesView" Color="Black">
+          <LineStyle DashStyle="Dash" Thickness="3" />
+          <LineMarkerOptions Visible="false" />
+        </View>
+      </Item1>
+    </SeriesSerializable>
+    <Titles>
+      <Item1 Text="FLOW_OUT_23" />
+    </Titles>
+    <Border Visible="false" />
+    <SeriesTemplate SynchronizePointOptions="false" ValueDataMembersSerializable="Value" ArgumentScaleType="Numerical" ArgumentDataMember="Argument">
+      <LegendPointOptions TypeNameSerializable="PointOptions" />
+      <Label LineVisible="true" TextOrientation="Horizontal" Visible="false" TypeNameSerializable="PointSeriesLabel" />
+      <View TypeNameSerializable="LineSeriesView">
+        <LineStyle Thickness="3" />
+        <LineMarkerOptions Visible="false" />
+      </View>
+    </SeriesTemplate>
+    <Legend BackColor="WhiteSmoke" Font="Tahoma, 8pt, style=Bold">
+      <Shadow Visible="true" />
+    </Legend>
+  </Chart>
+</ChartXmlSerializer>
